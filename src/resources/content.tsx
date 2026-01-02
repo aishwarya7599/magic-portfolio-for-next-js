@@ -6,7 +6,7 @@ const person: Person = {
   lastName: "Anandan",
   name: "Aishwarya Anandan",
   role: "Data Analyst / Business Intelligence / Business Analyst / Forcasting Analyst",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/avatar2.jpg",
   email: "aishwarya7599@gmail.com",
   //location: "America/New_York",  Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   location: "US/Eastern",
@@ -91,9 +91,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+      Aishwarya is a US/Eastern-based Forecasting Specialist and Data Analyst with a passion for transforming complex datasets into simple, actionable business insights. Currently pursuing her Master’s in Business Analytics at UMass Amherst (Fall 2025) , she brings four transformative years of experience from ExxonMobil and Batesville across data engineering, quality management, and business operations. Aishwarya thrives at the intersection of business and technology—fixing operational inefficiencies through SQL, Power BI, and automation while exploring AI technologies to drive smarter decisions and real-world impact.
       </>
     ),
   },
@@ -102,17 +100,17 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Batesville",
+        timeframe: "May 2025 - Aug 2025",
+        role: "IT Vendor and Contracts Analytics Intern",
         achievements: [
-          "Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.",
-          "Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.",
+          "Engineered an enterprise a central dashboard using SQL Server and Power BI to manage $10M+ in vendor agreements, standardizing metadata and KPI drill-downs for renewal, spend, and compliance.",
+          "Streamlined vendor management processes, improving documentation and automating trackers for increased operational efficiency.",
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
+            src: "/images/projects/project-01/cover-001.png",
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -120,12 +118,26 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "ExxonMobil",
+        timeframe: "May 2022 - Apr 2024",
+        role: "Senior Business Intelligence Developer - Service Desk",
         achievements: [
-          "Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.",
-          "Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.",
+          "Spearheaded the engineering of 15+ executive governance dashboards using Tableau, Power BI, and ServiceNow, improving Customer Experience (CX) scores by 0.8 points.",
+          "Achieved $90K in annual efficiency gains by architecting SLA-aware workflow automations and performance analytics tools within the ServiceNow ecosystem.",
+          "Eliminated 5,000+ manual hours per year by orchestrating ServiceNow Flow automation with embedded data-quality rules and intelligent ticketing routing.",
+          "Reduced service ticket volume by 40% through in-depth analysis of ticketing health and the deployment of automated self-service solutions.",
+          "Coordinated a high-stakes knowledge transfer for a 25-member team to a Managed Service Provider (MSP), ensuring 100% service continuity through rigorous documentation and training.",
+        ],
+        images: [],
+      },
+      {
+        company: "ExxonMobil",
+        timeframe: "Aug 2020 - Apr 2022",
+        role: "Retail Data Analyst - Vendor Management & Data Visualization",
+        achievements: [
+          "Standardized SLA and KPI governance frameworks for 14,000+ North American retail sites by implementing vendor scorecards, increasing accountability for a 70-member managed services team.",
+          "Drove a 30% increase in loyalty revenue for the GroupBuy program by performing cohort analysis to optimize offer targeting and securing stakeholder adoption for strategic roadmap recommendations.",
+          "Led 12 enterprise IT security risk assessments to closure with zero safety or compliance incidents by utilizing Power BI to standardize governance reporting and monthly business reviews.",
         ],
         images: [],
       },
@@ -136,12 +148,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of Massachusetts Amherst",
+        description: <>MS in Business Analytics - Data Analytics Track - 4 GPA.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Christ University",
+        description: <>BS in Computer Science, Mathematics, and Statistics.</>,
       },
     ],
   },
@@ -149,33 +161,27 @@ const about: About = {
     display: true, // set to false to hide this section
     title: "Technical skills",
     skills: [
-      {
-        title: "Figma",
-        description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
-        ),
-        tags: [
-          {
-            name: "Figma",
-            icon: "figma",
-          },
-        ],
+      //{
+      //  title: "Figma",
+      //  description: (
+      //    <>Able to prototype in Figma with Once UI with unnatural speed.</>
+      //  ),
+      //  tags: [
+      //   {
+      //      name: "Figma",
+      //      icon: "figma",
+      //    },
+      //  ],
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
+      //  images: [
+      //    {
+      //      src: "/images/projects/project-01/cover-02.jpg",
+      //      alt: "Project image",
+      //      width: 16,
+      //      height: 9,
+      //    },
+      //    ],
+      //},"""
       {
         title: "Next.js",
         description: (
@@ -196,14 +202,21 @@ const about: About = {
           },
         ],
         // optional: leave the array empty if you don't want to display images
-        images: [
+        images: [],
+      },
+      {
+        title: "Figma",
+        description: (
+          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+        ),
+        tags: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+            name: "Figma",
+            icon: "figma",
           },
         ],
+        // optional: leave the array empty if you don't want to display images
+        images: [],
       },
     ],
   },
